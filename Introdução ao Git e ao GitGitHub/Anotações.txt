@@ -1,0 +1,5 @@
+Link para downloado do git
+
+https://desktop.github.com/
+
+O git bash é um terminal estendido para otimizar o uso do git.
