@@ -1,0 +1,42 @@
+comandos windows prompt
+cd - acessar pasta (cd pasta)
+dir - trás a lista de diretórios contidas na pasta situada
+mkdir - cria uma pasta
+cls - limpa o terminal
+echo - cria um arquivo e printa o texto de volta ao terminal
+> - redirecionador de fluxo, pega o out put do echo e trabforma em arquivo.
+echo hello > hello.txt.
+
+del- deleta apenas o arquivo
+rmdir - remove o repositório com todos os arquivos dentro dele
+
+
+--------------------------------------------------------------------------
+comandos no git:
+openssl sha1 hello.txt - criptografa as alterações no arquivo
+
+git init - inicia o repositório (O comando git init cria um 
+novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do 
+Git ou inicializar um novo repositório vazio.)
+
+git add - move arquivos
+
+git commit -
+
+ls - serve para listar tudo que está dentro da pasta
+ls -a - mostra arquivos ocultos
+git config --global user.email"seu@email.com" - serve para associar os commits a um email.
+git config --global user.name - associa um nome ao commit
+git status - monitora o estado dos arquivos
+mv - move o aqruivo. mv arquivo ./pasta/
+
+git add nomeArquivo - adiciona o arquivo (untracked para staged))
+git add * - edita o arquivo (Unmodifield para modifield)
+git add . - "stage" o arquivo (modifield para staged)
+git config --global --unset user.email - limpa o email associado ao commit
+git config --global --unset user.name - limpa o nome associado ao commit
+git remote add origin http://... - empurrar a versao do nosso repositorio local para um repositorio remoto
+git remote -v - lista as listas de repositórios cadastrados
+
+
+
