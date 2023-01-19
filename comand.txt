@@ -21,7 +21,7 @@ Git ou inicializar um novo repositório vazio.)
 
 git add - move arquivos
 
-git commit -
+git commit -m "..."envia as alterações locais para o repositório remoto. 
 
 ls - serve para listar tudo que está dentro da pasta
 ls -a - mostra arquivos ocultos
