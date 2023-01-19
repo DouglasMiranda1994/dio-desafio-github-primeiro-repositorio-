@@ -37,6 +37,27 @@ git config --global --unset user.email - limpa o email associado ao commit
 git config --global --unset user.name - limpa o nome associado ao commit
 git remote add origin http://... - empurrar a versao do nosso repositorio local para um repositorio remoto
 git remote -v - lista as listas de repositórios cadastrados
+git clone - clona o repositório criado no github dentro de um repositorio local(gitbash)
+git push origin main - Isso envia todos os commits realizados localmente para o repositório remoto
+-------------------------------------------------------------------
+Resumo: Criando um repositório remoto e local.
 
+- Crie no github um novo repositório e dê um nome a ele.
+- Adicione o arquivo README.md e escreva qualquer informção que você ache importante.
+- Abra o git bash dentro da pasta desejada ou acesse via comando.
+- Copie o link de códido do github que foi criado(link do repositório remoto)
+- Já dentro da pasta, use o comando 'git clone' e cole o link: git clone https://github.com/DouglasMiranda1994/dio-desafio-github-primeiro-repositorio-.git
+(VocÊ também pode criar um pasta com arquivos dentro do repositório local e adicionar no remoto)
+- Crie uma pasta com seus arquivos localmente para adiciona-lo em seu repositorio remoto(criado no inicio do resumo))
+- Dê um git status para verificar se há modificações na pasta.
+(Mostrará que há)
+- Depois dê um git add . ou git add -A para adicionar todos os arquivos
+- Dê novamente um git status para verificar se o arquivo foi adicionado.
+(Mostrará que foi)
+- dê um git commit -m "texto"
+(Até aqui suas modificações da pasta foram adicionadas localmente, falta colocá-las no repositório remoto, aquele que criamos no início do resumo)
+- Novamente dê um git status. Você verá uma mensagem dizendo que há um commit local e que você devera dar um git push para enviar esses arquivos para o repositório remoto.
+- Escreva o comando git push origin main. Isso envia todos os commits realizados localmente para núvem.
+(Verifique no seu repositório remoto. Se tudo ocorreu certo, sua pasta criada localmente irá para o repositório remoto do github)
 
 
